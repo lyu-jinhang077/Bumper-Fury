@@ -3,7 +3,7 @@
 Bumper Fury HTML5 game project
 
 ### Live Demo
-[http://games.thejinhu.com/bumper-fifa](http://games.thejinhu.com/bumper-fury)
+[http://games.thejinhu.com/bumper-fury](http://games.thejinhu.com/bumper-fury)
 
 ![Screenshot](https://raw.githubusercontent.com/TruePai/Bumper-Fury/master/assets/img/Screenshot_29.png)
 
