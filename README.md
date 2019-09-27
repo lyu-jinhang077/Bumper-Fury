@@ -5,7 +5,7 @@ Bumper Fury HTML5 game project
 ### Live Demo
 [http://games.thejinhu.com/bumper-fifa](http://games.thejinhu.com/bumper-fury)
 
-![Screenshot](https://github.com/TruePai/Car-Soccer/blob/master/assets/img/screenshots/Screenshot_25.png)
+![Screenshot](https://raw.githubusercontent.com/TruePai/Bumper-Fury/master/assets/img/Screenshot_29.png)
 
 ### Dependencies
 * [PhaserJS](http://phaser.io/)
