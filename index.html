@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bumper fury</title>
+    <link rel="icon" type="image/png" href="favicon.png" >
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" >
+    <script src="assets/js/fmath.js" ></script>
+    <script src="assets/js/jquery-3.3.1.min.js" ></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/phaser.min.js" ></script>
+    <script src="assets/js/pai-util.js"></script>
+    <script src="assets/js/multiplayer-client.js?v=4"></script>
+    <script src="assets/js/main.js?v=4" ></script>
+</head>
+<body>
+<div id="phaser-container" >
+
+</div>
+
+<div id="score-container" >
+    <div class="row" >
+        <div>Kills</div>
+        <div id="kills-shower" >0</div>
+    </div>
+    <div class="row">
+        <div>Score</div>
+        <div id="score-shower" >0</div>
+    </div>
+    <div class="row">
+        <div>Time</div>
+        <div id="time-shower" >00:00</div>
+    </div>
+</div>
+
+<div id="top-list-container" >
+    <div class="row" id="top-1" >
+        <div class="no" >1</div>
+        <div class="name" >--</div>
+        <div class="score" >0</div>
+    </div>
+    <div class="row" id="top-2" >
+        <div class="no" >2</div>
+        <div class="name" >--</div>
+        <div class="score" >0</div>
+    </div>
+    <div class="row" id="top-3" >
+        <div class="no" >3</div>
+        <div class="name" >--</div>
+        <div class="score" >0</div>
+    </div>
+    <div class="row" id="me-list" >
+        <div class="no" >10</div>
+        <div class="name" >--</div>
+        <div class="score" >0</div>
+    </div>
+</div>
+
+<div id="log-container" >
+
+</div>
+
+<div id="overlay-home" >
+    <div id="btn-help" ></div>
+    <div class="flex-center-fill" >
+        <div style="text-align: center" >
+            <img src="assets/img/ui/title.png" style="width: 50vw;max-width: 800px;" />
+            <br>
+            <img id="loading-gif" src="assets/img/ui/loading.gif" width="80" />
+            <div id="start-ui" >
+                <div style="display: flex;justify-content: center;align-items: flex-end;" >
+                    <div style="display:flex;flex-direction:column;align-items:center;" >
+                        <div id="skin-img-container" class="car-container" >
+                            <img id="selected-car-img" src="assets/img/cars/car1.png" alt="" height="100" >
+                        </div>
+                    </div>
+                    <div id="btn-skins" ></div>
+                    <!--<div id="last-info-container" >-->
+
+                    <!--</div>-->
+                </div>
+                <div>
+                    <input id="input-name" spellcheck="false" placeholder="Player name" maxlength="8" />
+                </div>
+                <div id="play-btn-container" >
+                    <button id="btn-play" disabled="disabled" ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="car-choose-container" >
+    <div id="car-choose-container-inner" >
+        <div style="display: flex;flex-direction: row;align-items: center;justify-content: center;" >
+            <div id="btn-prev-cars" class="btn-cars" ></div>
+            <div id="cars-page-container" >
+                <div id="cars-page-container-inner" ></div>
+            </div>
+            <div id="btn-next-cars" class="btn-cars" ></div>
+        </div>
+        <div id="btn-select-car" ></div>
+    </div>
+    <div id="btn-home" ></div>
+</div>
+
+<div id="help-container" >
+    <div>
+        <h3>GENERAL GAMEPLAY</h3>
+        <ul>
+            <li>Defend against attacks and strike opponents with bumper</li>
+            <li>Destroy opponents and collect dropped Gems</li>
+            <li>Gems increase bumper for better attack and defense</li>
+            <li>Larger Gems increases bumper quicker than smaller Gems</li>
+            <li>Destroying opponents increases bumper quicker than Gems</li>
+            <li>Surprise opponents by pressing your space bar for boost control</li>
+        </ul>
+        <div id="btn-help-ok" >OK</div>
+    </div>
+</div>
+
+<div id="alert-container" >
+
+</div>
+
+</body>
+</html>
